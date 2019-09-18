@@ -3,18 +3,21 @@
         "id": 1,
         "name": "My First Website",
         "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-            "description": "This was my first project. MORE DESCRIPTION"
+            "description": "This was my first project, where I built a website from scratch in HTML.",
+            "link": "http://www.google.com"
     },
     {
         "id": 2,
         "name": "UI Design",
         "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-            "description": "My second project. MORE DESCRIPTION"
+            "description": "My second project. MORE DESCRIPTION",
+            "link": "http://www.google.com"
     },
     {
         "id": 3,
-        "name": "Third Project",
+        "name": "FizzBuzz",
         "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-            "description":"My third project. MORE DESCRIPTION"
+            "description":"My third project, a FizzBuzz calculator!",
+            "link":"https://davvedavve.github.io/fizzbuzz_js_david/src"
     }
 ]

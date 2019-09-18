@@ -5,12 +5,13 @@ const ProjectCard = (props) => {
     return (
         <>
             <div class="ui card">
-                <div class="image">
-                    <img src={project.image} />
+                <div class="ui image">
+                <a href={project.link}>
+                    <img src={project.image} alt="Logo" />;
+                </a>
                 </div>
                 <div class="content">
                     <h3 class="ui header">{project.name}</h3>
-                
                     <div class="description">
                         {project.description}
                     </div>
