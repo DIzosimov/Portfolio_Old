@@ -4,16 +4,16 @@ const JobsCard = (props) => {
     let job = props.job
     return (
         <>
-            <div class="ui card">
-                <div class="content">
-                    <h3 class="ui header">{job.name}</h3>
-                    <div class="description">
+            <div className="ui card">
+                <div className="content">
+                    <h3 className="ui header">{job.name}</h3>
+                    <div className="description">
                         {job.description}
                     </div>
-                    <div class="length">
+                    <div className="length">
                         {job.length}
                     </div>
-                    <div class="employers">
+                    <div className="employers">
                         {job.employer}
                     </div>
                 </div>

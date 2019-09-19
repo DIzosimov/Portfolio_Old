@@ -18,21 +18,21 @@ const About = () => {
                             David Izosimov
                             </div>
                         </div>
-                        <div class="item">
-                            <i class="marker icon"></i>
-                            <div class="content">
+                        <div className="item">
+                            <i className="marker icon"></i>
+                            <div className="content">
                             Stockholm, Sweden
                             </div>
                         </div>
-                        <div class="item">
-                            <i class="mail icon"></i>
-                            <div class="content">
+                        <div className="item">
+                            <i className="mail icon"></i>
+                            <div className="content">
                             <a href="mailto:David.Izosimov@gmail.com">David.Izosimov@gmail.com</a>
                             </div>
                         </div>
-                        <div class="item">
-                            <i class="linkify icon"></i>
-                            <div class="content">
+                        <div className="item">
+                            <i className="linkify icon"></i>
+                            <div className="content">
                             <a href="https://www.linkedin.com/in/david-izosimov-380293183/">LinkedIn</a>
                             </div>
                         </div>
