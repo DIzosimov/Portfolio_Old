@@ -9,6 +9,7 @@ const Header = () => {
                 <div className="right menu">
                     <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/about'>About Me</NavLink>
                     <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/projects'>Projects</NavLink>
+                    <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/cv'>Cv</NavLink>
                 </div>
             </div>
         </nav>

@@ -7,7 +7,7 @@ const EduCard = (props) => {
             <div class="ui card">
                 <div class="ui image">
                     {/* embed <a link for each school? */}
-                    <img src={ProjectCard.image} alt="Logo" />;
+                    <img src={education.image} alt="Logo" />;
                 </div>
                 <div class="content">
                     <h3 class="ui header">{education.school}</h3>

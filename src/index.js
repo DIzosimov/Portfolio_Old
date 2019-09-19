@@ -1,13 +1,13 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Hello from "./data/Components/Hello"
-import Header from "./data/Components/Header"
-import Footer from "./data/Components/Footer"
+import Hello from "./data/Hello"
+import Header from "./data/Header"
+import Footer from "./data/Footer"
 import { BrowserRouter } from 'react-router-dom'
 import { Switch, Route } from 'react-router-dom'
-import Projects from "./data/Components/Projects"
-import About from "./data/Components/About"
-import Cv from "./Components/Cv"
+import Projects from "./data/Projects"
+import About from "./data/About"
+import Cv from "./data/Cv"
 
 const App = () => {
     return (

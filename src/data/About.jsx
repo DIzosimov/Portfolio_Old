@@ -4,17 +4,17 @@ import { UndrawDesignerLife } from 'react-undraw-illustrations';
 const About = () => {
     return (
         <div className="ui main container">
-            <div class="ui stackable two column grid">
-                <div class="column">
+            <div className="ui stackable two column grid">
+                <div className="column">
                     <UndrawDesignerLife primaryColor='#12283a' height='200px' />
                 </div>
-                <div class="column">
+                <div className="column">
                 <h1 className="ui header">About Me</h1>
                     <p>A young developer looking to expand my horizons.</p>
-                    <div class="ui list">
-                        <div class="item">
-                            <i class="users icon"></i>
-                            <div class="content">
+                    <div className="ui list">
+                        <div className="item">
+                            <i className="users icon"></i>
+                            <div className="content">
                             David Izosimov
                             </div>
                         </div>

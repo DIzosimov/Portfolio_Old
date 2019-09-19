@@ -1,6 +1,6 @@
-import React, { Component} from "react"
+import React, { Component } from "react"
 import axios from "axios"
-import ProjectCard from "./Components/ProjectCard"
+import ProjectCard from "./ProjectCard"
 import { UndrawDesigner } from 'react-undraw-illustrations';
 
 class Projects extends Component {
@@ -11,7 +11,7 @@ class Projects extends Component {
         };
     }
     componentDidMount() {
-        axios.get('./src/data/Components/projects.json')
+        axios.get('./src/data/projects.json')
         .then(response => {
             this.setState({
             projects:response.data
