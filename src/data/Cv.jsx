@@ -69,7 +69,9 @@ class Cv extends Component {
                 <div className="column">
                     <h1 className="ui header">My CV</h1>
                     <div className="ui stackable four column grid">
-                    {jobsList}
+                        <div id="column">
+                            {jobsList}
+                        </div>
                     </div>
                 </div>
                 <div className="column">

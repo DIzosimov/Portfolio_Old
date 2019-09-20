@@ -1,20 +1,26 @@
 [
     {
         "id": 1,
-        "school": "Sigtuna Skola Humanistiska Läroverket",
-        "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-            "noteworthy": "placeholder"
+        "school": "Sigtuna Skola Humanistiska Läroverket (SSHL)",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Sigtunaskolanlogo.png/250px-Sigtunaskolanlogo.png",
+            "noteworthy": "Graduated within the top 5% of IB students worldwide with a score of 37 points. Received high marks in Swedish, economics, business management and mathematics. Received a distinction for the most improved student."
     },
     {
         "id": 2,
-        "school": "UI Design",
-        "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-            "noteworthy": "My second project. MORE DESCRIPTION"
+        "school": "Stockholm International School",
+        "image": "https://studiostockholm.se/wp-content/uploads/2017/03/sis_news.jpg",
+            "noteworthy": "Previous highschool prior to SSHL"
     },
     {
         "id": 3,
-        "school": "FizzBuzz",
-        "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-            "noteworthy":"My third project, a FizzBuzz calculator!"
+        "school": "King's College London",
+        "image": "http://www.mybaggage.com/shipping/wp-content/uploads/2015/12/Kings-college-london-logo-2.jpg",
+            "noteworthy":"Brief studying of Digital Culture BA course"
+    },
+    {
+        "id": 4,
+        "school": "Duke University",
+        "image": "https://chem.duke.edu/sites/chem.duke.edu/themes/dukechem/images/duke-footer-logo.png",
+            "noteworthy": "Received first prize for our developed company idea at the summer entrepreneurship course."
     }
 ]

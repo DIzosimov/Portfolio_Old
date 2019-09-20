@@ -4,7 +4,7 @@ const JobsCard = (props) => {
     let job = props.job
     return (
         <>
-            <div className="ui card">
+            <div id="JobsCards" className="ui card">
                 <div className="content">
                     <h3 className="ui header">{job.name}</h3>
                     <div className="description">
