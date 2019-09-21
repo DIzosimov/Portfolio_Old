@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
             <div className="ui card">
                 <div className="ui image">
                 <a href={project.link}>
-                    <img src={project.image} alt="Logo" />;
+                    <img src={project.image} alt="Logo" />
                 </a>
                 </div>
                 <div className="content">

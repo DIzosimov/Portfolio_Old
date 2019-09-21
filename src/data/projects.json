@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "name": "My First Website",
-        "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-            "description": "This was my first project, where I built a website from scratch in HTML.",
-            "link": "http://www.google.com"
+        "name": "BMI Calculator",
+        "image": "https://www.ebuyer.com/blog/wp-content/uploads/2014/07/buttons-on-a-calculator-header1.jpg",
+            "description": "A simplistic calculator that lets you calculate your BMI.",
+            "link": "https://davvedavve.github.io/bmi_calculator/src/"
     },
     {
         "id": 2,
-        "name": "UI Design",
-        "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-            "description": "My second project. MORE DESCRIPTION",
-            "link": "http://www.google.com"
+        "name": "Address Book",
+        "image": "https://m.media-amazon.com/images/S/aplus-media/vc/69f0ca94-0d95-4ff1-b017-e5dacb7361ce.JPG",
+            "description": "My second project. An address book that lets you save and remove contacts",
+            "link": "https://geeze-squad.netlify.com/"
     },
     {
         "id": 3,
         "name": "FizzBuzz",
-        "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
+        "image": "http://redpithemes.com/Documentation/assets/img/page_bg/page_bg_01.jpg",
             "description":"My third project, a FizzBuzz calculator!",
             "link":"https://davvedavve.github.io/fizzbuzz_js_david/src"
     }
