@@ -1,89 +1,75 @@
-import React, { Component } from 'react'
-import axios from "axios"
-import EduCard from "./EduCard"
-import JobsCard from "./JobsCard"
-import { UndrawDesignerLife } from 'react-undraw-illustrations';
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'
+import JobsCard from './JobsCard'
+import EduCard from './EduCard'
 
+const Cv = () => {
+  const [jobs, setJobs] = useState([])
+  const [educations, setEducations] = useState([])
 
+  let jobsList, educationsList, getJobs, getEducations, errorMsg
 
-class Cv extends Component {
-    constructor() {
-        super();
-        this.state = {
-        jobs: [],
-        educations: []
-        };
-    }
+  useEffect(() => {
+    getJobs()
+    getEducations()
+  }, [])
 
-    componentDidMount() {
-        this.getJobs()
-        this.getEducations()
-    }
-  
-    getJobs() {
-        axios.get('./src/data/jobs.json').then(response => {
-            this.setState({
-                jobs: response.data
-            })
-        })
-    }
+  getJobs = () => {
+		axios.get('./src/data/jobs.json').then(response => {
+			setJobs(response.data)
+		})
+  }
 
-    getEducations() {
-        axios.get('./src/data/education.json').then(response => {
-            this.setState({
-                educations: response.data
-            })
-        })
-    }
+  getEducations = () => {
+		axios.get('./src/data/education.json').then(response => {
+			setEducations(response.data)
+		})
+  }
 
-    render() {
-    const jobs = this.state.jobs
-    let jobsList
-            
-    const educations = this.state.educations
-    let educationsList
-
-    if (educations.length >= 1) {
-        educationsList = educations.map(education => {
-            return (
-                <div key={education.id}>
-                    <EduCard education={education} />
-                </div>
-            )
-        })
-    }
-
-    if (jobs.length >= 1) {
-      jobsList = jobs.map(job => {
+  if (educations.length >=1 && jobs.length >=1) {
+    educationsList = (
+      educations.map(education => {
         return (
-            <div key={job.id}>
-                <JobsCard job={job} />
-            </div>
-            )
-        })
-    }
+          <div key={education.id}>
+            <EduCard education={education} />
+          </div>
+        )
+      })
+		)
+
+		jobsList = (
+      jobs.map(job => {
+        return (
+          <div key={job.id}>
+            <JobsCard job={job} />
+          </div>
+        )
+      })
+    )
+  } else {
+    errorMsg = <h1>Oops something went wrong here!</h1>
+	}
 
     return (
-        <div className="ui main container">
-            <div className="ui stackable two column grid">
-                <div className="column">
-                    <h1 className="ui header">My CV</h1>
-                    <div className="ui stackable four column grid">
-                        <div id="column">
-                            {jobsList}
-                        </div>
-                    </div>
-                </div>
-                <div className="column">
-                    <div className="ui stackable four column grid">
-                        {educationsList}
-                    </div>
-                </div>
-            </div>
-            {/* <UndrawDesignerLife primaryColor='#12283a' height='200px' /> */}
+      <div className="ui main container">
+        <div className="ui stackable two column grid">
+					<div className="column">
+						<h1 className="ui header">My CV</h1>
+						{errorMsg}
+						<div className="ui stackable four column grid">
+							<div id="column">
+									{jobsList}
+							</div>
+						</div>
+				</div>
+				<div className="column">
+					<div className="ui stackable four column grid">
+							{educationsList}
+					</div>
+        </div>
       </div>
-    )
-  }
+    </div>
+  )
 }
 
 export default Cv
