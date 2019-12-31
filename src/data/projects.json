@@ -1,23 +1,23 @@
 [
     {
         "id": 1,
-        "name": "BMI Calculator",
-        "image": "https://www.ebuyer.com/blog/wp-content/uploads/2014/07/buttons-on-a-calculator-header1.jpg",
-            "description": "A simplistic calculator that lets you calculate your BMI.",
-            "link": "https://davvedavve.github.io/bmi_calculator/src/"
+        "name": "Wander",
+        "image": "https://branchez-vous.com/wp-content/uploads/2019/10/google-maps-signaler-incidents-860x562.jpg",
+            "description": "A hiking application that lets users create and share hiking trails all around the world!",
+            "link": "https://projectwander.netlify.com/"
     },
     {
         "id": 2,
-        "name": "Address Book",
-        "image": "https://m.media-amazon.com/images/S/aplus-media/vc/69f0ca94-0d95-4ff1-b017-e5dacb7361ce.JPG",
-            "description": "My second project. An address book that lets you save and remove contacts",
-            "link": "https://geeze-squad.netlify.com/"
+        "name": "Classy News",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41swxzcdkYL._AC_.jpg",
+            "description": "A news application that lets authors publish articles for subscribed users to view.",
+            "link": "https://classynews.netlify.com/"
     },
     {
         "id": 3,
-        "name": "FizzBuzz",
-        "image": "http://redpithemes.com/Documentation/assets/img/page_bg/page_bg_01.jpg",
-            "description":"My third project, a FizzBuzz calculator!",
-            "link":"https://davvedavve.github.io/fizzbuzz_js_david/src"
+        "name": "Rock Paper Scissors",
+        "image": "https://www.playworks.org/colorado/wp-content/uploads/sites/5/2019/09/finalrps-classypage.jpg",
+            "description":"A simulated rock paper scissors game against an AI.",
+            "link":"https://davids-rps.netlify.com/"
     }
 ]
