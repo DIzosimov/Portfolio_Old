@@ -47,7 +47,9 @@ const Cv = () => {
       })
     )
   } else {
-    errorMsg = <h1>Oops something went wrong here!</h1>
+    setTimeout(() => {
+      errorMsg = <h1>Oops something went wrong here!</h1>
+    }, 500)
 	}
 
     return (

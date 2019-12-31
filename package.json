@@ -14,7 +14,9 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-undraw-illustrations": "^2.0.3"
+    "react-undraw-illustrations": "^2.0.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
@@ -27,7 +29,7 @@
     "js-yaml": "^3.13.1",
     "style-loader": "^0.23.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.19.1",
+    "webpack": "^4.41.5",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.11"
   }
